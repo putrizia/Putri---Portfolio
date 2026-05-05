@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putri Aziza | UI/UX Designer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons for Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <a href="#" class="logo">Putri Aziza<span>.</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="home-content reveal">
+            <h3>Hello, I'm</h3>
+            <h1>Putri Aziza</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I craft intuitive, elegant, and user-centered digital experiences. Specialized in creating premium
+                interfaces for shopping apps and modern web platforms.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-dribbble'></i></a>
+                <a href="#"><i class='bx bxl-behance'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bx-envelope'></i></a>
+            </div>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="home-img reveal">
+            <!-- Decorative Abstract Elements to replace a portrait for now -->
+            <div class="abstract-shape shape-1"></div>
+            <div class="abstract-shape shape-2"></div>
+            <div class="glass-card mockup-card">
+                <i class='bx bx-shopping-bag mockup-icon'></i>
+                <h4>Design that Connects</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content reveal">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>UI/UX Designer with a passion for elegant solutions.</h3>
+            <p>Saya memiliki pengalaman sebagai UI/UX Designer selama satu tahun. Saya sangat tertarik dalam merancang
+                aplikasi berbelanja (shopping apps) dan e-commerce dengan sentuhan estetika premium yang chic dan
+                modern. Saya percaya bahwa desain tidak hanya tentang bagaimana sesuatu terlihat, tetapi juga bagaimana
+                rasanya ketika digunakan.</p>
+            <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading reveal">My <span>Skills</span></h2>
+
+        <div class="skills-container reveal">
+            <div class="skills-box">
+                <i class='bx bx-palette'></i>
+                <h3>UI/UX Design</h3>
+                <p>Figma, Wireframing, Prototyping, Usability Testing</p>
+                <div class="progress-line">
+                    <span style="width: 90%;"></span>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript, Bootstrap</p>
+                <div class="progress-line">
+                    <span style="width: 80%;"></span>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-widget'></i>
+                <h3>Tools</h3>
+                <p>Microsoft Office, Google Docs, Google Sheets, Git</p>
+                <div class="progress-line">
+                    <span style="width: 85%;"></span>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-bulb'></i>
+                <h3>Soft Skills</h3>
+                <p>Communication, Teamwork, Attention to Detail, Problem Solving</p>
+                <div class="progress-line">
+                    <span style="width: 95%;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading reveal">Featured <span>Projects</span></h2>
+
+        <div class="portfolio-container reveal">
+            <!-- Project 1 -->
+            <div class="portfolio-box">
+                <!-- Fallback gradient if image not loaded, but will try to use the generated images if possible -->
+                <div class="portfolio-img bg-gradient-1">
+                    <h3 class="placeholder-text">Shopping App UI</h3>
+                </div>
+                <div class="portfolio-layer">
+                    <h4>Mobile Shopping App</h4>
+                    <p>Desain antarmuka aplikasi mobile dengan warna pastel yang chic, berfokus pada kemudahan checkout.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-box">
+                <div class="portfolio-img bg-gradient-2">
+                    <h3 class="placeholder-text">Fashion E-Commerce</h3>
+                </div>
+                <div class="portfolio-layer">
+                    <h4>High-End Fashion Web</h4>
+                    <p>Landing page e-commerce premium dengan tata letak minimalis dan tipografi elegan.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading reveal">Contact <span>Me!</span></h2>
+
+        <form action="#" class="reveal">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Putri | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Typed JS for typing effect -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
